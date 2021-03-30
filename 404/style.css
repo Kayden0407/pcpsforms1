@@ -1,0 +1,117 @@
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body { 
+    margin: 0px;
+    overflow: hidden;
+    background: rgba(10,10,10,1.0);
+  }
+  
+  #bgCanvas {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #triCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #errorMsg {
+    /*background: rgba(255,255,255,0.50);*/
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    display: block;
+    width: 184px;
+    height: 18px;
+  }
+  
+  .errorTitle {
+    font-size: 12px;
+    font-family: Verdana, Tahoma, sans;
+    color: #606060;
+  }
+  
+  #refreshBttn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -100px;
+    display: block;
+    width: 200px;
+    height: 36px;
+    /*position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+  }
+  
+  .bttnTheme {
+    cursor: pointer;
+    border: 0px none;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.20);
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans;
+    color: rgba(255,255,255,0.70);
+  }
+  
+  #header {
+    position: fixed;
+    margin-top: 35px;
+    margin-left: 35px;
+  }
+  
+  .headerAccent {
+    position: fixed;
+    background: rgba(240, 128, 0, 1.0);
+    width: 2px; height: 35px;
+  }
+  
+  #headerText {
+    margin-left: 15px;
+    font-size: 28px;
+    font-family: Verdana, Tahoma, sans;
+    color: #808080;
+  }
+  
+  #content {
+    /*background: rgba(255,255,255,0.50);*/
+    position: fixed;
+    width: 50%; height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -25%;
+  }
+  
+  #contentTitle {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans;
+    color: #808080;
+  }
+  
+  #contentText {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Tahoma, sans;
+    color: #606060;
+  }
