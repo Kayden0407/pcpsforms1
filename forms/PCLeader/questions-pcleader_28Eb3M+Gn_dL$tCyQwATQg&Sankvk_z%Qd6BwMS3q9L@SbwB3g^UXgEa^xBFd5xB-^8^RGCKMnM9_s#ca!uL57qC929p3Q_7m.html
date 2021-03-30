@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file:///C:/Users/User/Desktop/Org_PCPS%20Forms/Org_PCPS%20Forms/forms/PCLeader/style.css">
+        <script src="file:///C:/Users/User/Desktop/Org_PCPS%20Forms/Org_PCPS%20Forms/forms/PCLeader/script.js"></script>
+    <title>PCLeader Survey Questions</title>
+</head>
+<body>
+
+  <!-- Firebase -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDo1vyaNQFALs8CMtnb2t-l3i9QxjlmXaI",
+    authDomain: "pcpsforms.firebaseapp.com",
+    projectId: "pcpsforms",
+    storageBucket: "pcpsforms.appspot.com",
+    messagingSenderId: "90585428224",
+    appId: "1:90585428224:web:d28a3201d6c1cc7548c3e5",
+    measurementId: "G-K384X037PX"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <!-- End Firebase -->
+
+
+  
+<!-- Start form -->
+<form method="POST" id="pcleaderForm">
+<fieldset>
+    <legend>Your details</legend>
+<br>
+    <!-- Details -->
+    <div class="group">      
+      <input id="fname" name="fname" type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label class="g">First name</label>
+    </div>
+      
+    <div class="group">      
+      <input id="lname" name="lname" type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label class="g">Last name</label>
+    </div>
+    
+    <div class="group">      
+      <input id="semail" name="semail" type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label class="g">School Email</label>
+    </div>
+    <div class="b"><p><strong>Format:</strong> name_on_name_tag_YY@pcps.edu.sg</p><p><strong>Example:</strong> john_doe_09@pcps.edu.sg</p></div><br>
+</fieldset>
+<br>
+    <button class="button" type="submit" value="submit"><span>Submit </span></button>
+</form>
+<!-- End form -->
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+
+<script src="link-firebase.js"></script>
+</body>
+</html>
