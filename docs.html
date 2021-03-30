@@ -1,0 +1,218 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documantaion Page</title>
+<!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- google font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
+    
+      <div class="row">
+      <div class="col-md-3 col-sm-6" id="navbar">
+       <div class="container">
+         <div class="header">
+           <img class="header-img" src="file:///C:/Users/User/Desktop/Org_PCPS%20Forms/Org_PCPS%20Forms/img/final_logo.png">
+  <header class="title">PCPS Forms Documentation</header>
+          </div>
+  <div class="list-group">
+    <a href="#introduction" class="list-group-item list-group-item-action">Introduction</a>
+    <a href="#signing-in" class="list-group-item list-group-item-action">Signing in</a>
+    <a href="#tips&tricks" class="list-group-item list-group-item-action">Tips and Tricks</a>
+    <a href="#errcodes" class="list-group-item list-group-item-action">Error codes</a>
+
+  </div>
+</div>
+      </div>
+         <div class="col-md-9 col-sm-6" style="background-color:#e8eae6;">
+            <main id="main-doc">
+            <section class="main-sec" id="introduction">
+              <header>Introduction</header>
+              <article>
+                <p>This form is designed for students and teachers to use instead of the usual Google Forms interface and at the same time, the teachers can further customize to form.</p>
+                
+                
+              </article>
+            </section>
+              <section class="main-sec" id="signingin">
+              <header>Signing in</header>
+              <article>
+                <p>For this form, signing in is <strong>currently unavailable</strong>. To access a form, just simply go to the <a href="" target="_blank">enter form page</a> and type in the form code your teacher has given you.</p>
+                
+            
+              </article>
+            </section>
+
+            <section class="main-sec" id="tips&tricks">
+              <header>Tips and Tricks</header>
+              <article>
+                <p>Here is a list of tips and tricks:</p>
+                <ul>
+                  <li>
+                    
+                  </li>
+                </ul>
+                
+              </article>
+            </section>
+            
+            <section class="main-sec" id="errcodes">
+              <header>Error codes</header>
+              <article>
+                <p>Here is a list of error codes and their meaning:</p>
+                <ul>
+                  <li>
+                    
+                  </li>
+                </ul>
+                
+              </article>
+            </section>
+            
+    </main>
+          
+      </div>
+        </div>
+   
+  </body>
+
+<!-- CSS -->
+  <style>
+      /*tag styles */
+body {
+ 
+ 
+}
+main {
+  margin:3rem 3rem 3rem 4rem;
+}
+header {
+  padding: 1.5rem 1.5rem 1.5rem 0 ;
+  font-family: 'Lato', sans-serif;
+  font-weight:900;
+  font-size:1.3vw;
+  color:#5b5b5b;
+}
+p {
+ 
+
+}
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/*class styles */
+
+.header-img{
+  width:7rem;  
+}
+
+.header {
+  text-align:center;
+  padding:1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight:900;
+  font-size:1.3vw;
+  color:#5b5b5b;
+}
+
+.col-md-3,col-sm-6 {
+  background-color: #cdd0cb;
+  font-family: 'Lato', sans-serif;
+  font-weight:600;
+  padding: 1rem;
+  padding-bottom: 100%;
+}
+
+.col-md-9 ,col-sm-6{
+  padding-bottom:12rem;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #5b5b5b; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 10px; 
+  font-size: 18px; 
+  font-family: 'Lato', sans-serif;
+}
+/*id styles  */
+
+#myBtn:hover {
+  background-color: #cdd0cb; 
+}
+
+/* responsive For tablets: */
+@media only screen and (max-width:800px) { 
+  header {
+    font-size: 17px; 
+     } 
+  .title {
+    font-size: 13px; 
+     }
+}
+
+/* responsive mobile phones: */
+@media only screen and (max-width:500px) {
+  header {
+    font-size: 20px; 
+     }
+  .title {
+    font-size: 20px; 
+     }
+  .col-md-3,col-sm-6{
+    padding-bottom: 4rem;
+  }
+  
+}
+  </style>
+<!-- End CSS -->
+
+<!-- JS -->
+<script>
+    //Get the top button:
+mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+<!-- End JS -->
+</html>

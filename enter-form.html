@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter form code | PCPS Forms</title>
+    
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <!--  -->
+    <form id='pcpsEnterForm'>
+      <div class="contine">
+        <div class="gg-bound-control" data-bound-control onclick="this.classList.add('active-gg-bound-control')">
+          <div class="gg-bound-control-outer">
+            <div class="gg-bound-control-inner">
+              <div class="gg-bound-control-wrapper">
+                <input id="userInput" class="gg-bound-control-input" type="text" spellcheck="false" autocomplete="off" autocapitalize="none" name="fcode">
+                <div class="gg-bound-control-label">Form code</div>
+              </div>
+              <div class="gg-bound-control-df-bottom-border"></div>
+              <div class="gg-bound-control-ef-bottom-border"></div>
+              
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <style>
+        .submit-button {
+          display: inline-block;
+          border-radius: 4px;
+          background-color: #808080;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 28px;
+          padding: 10px;
+          width: 200px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        
+        .submit-button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .submit-button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .submit-button:hover span {
+          padding-right: 25px;
+        }
+        
+        .submit-button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        </style>
+        
+        
+        
+        
+        <br><div class="wrapper"><button id="userInput" type="submit" class="submit-button" style="vertical-align:center"><span>Go </span></button></div>
+        <!-- <input type="submit" class="submit-button" value="Submit"> -->
+
+
+    </form>
+</body>
+
+<!--  Jquery js file  -->
+<script src="./js/jquery.3.4.1.js"></script>
+
+<!--  Bootstrap js file  -->
+<script src="./js/bootstrap.min.js"></script>
+
+<!--  isotope js library  -->
+<script src="./vendor/isotope/isotope.min.js"></script>
+
+<!--  Magnific popup script file  -->
+<script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+<!--  Owl-carousel js file  -->
+<script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+<!--  custom js file  -->
+<script src="./js/main.js"></script>
+
+<!--  -->
+<script src="userInput.js"></script>
+
+</html>
